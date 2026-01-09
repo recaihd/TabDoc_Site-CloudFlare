@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabdoc</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="pagina.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <a href="" class="logo-container">
+                <img src="images/icon.png" alt="Logo Tabdoc" class="logo" onerror="this.style.display='none'">
+                <span class="app-name">Tabdoc</span>
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="docs">Documentação</a></li>
+                    <li><a href="downloads">Downloads</a></li>
+                    <li><a href="donate">Donate</a></li>
+                    <li><a href="suporte">Suporte</a></li>
+                    <li><a href="contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-card">
+            <h1>Bem-vindo ao Tabdoc <img src="images/frieren.png" alt="Frieren"
+                    style="height: 40px; vertical-align: middle; margin-left: 10px;"></h1>
+            <p style="margin-top: 1rem; line-height: 1.6; color: #555;">
+                Um app de produtividade completo para você organizar suas tarefas do dia a dia.
+                O layout foi projetado para ser limpo e focado no conteúdo, Com imagens, Links, Tudo muito visual para
+                que qualquer pessoa consiga usar, De código aberto e gratuito, Você pode sugerir melhorias atravez dos
+                meios de contato a cima, TabDoc e um projeto independente, Criado também para fins educacionais, É
+                concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos
+                arquivos associados (o “Software”) para usar, copiar, modificar, mesclar, publicar, distribuir e
+                executar o Software sem restrições, desde que este aviso de copyright e esta licença sejam mantidos em
+                todas as cópias ou partes substanciais do Software; o Software é fornecido “no estado em que se
+                encontra”, sem qualquer tipo de garantia, expressa ou implícita, incluindo, mas não se limitando a
+                garantias de comercialização, adequação a um fim específico e não violação, e em nenhuma hipótese o
+                autor ou os detentores dos direitos autorais serão responsabilizados por quaisquer reivindicações, danos
+                ou outras responsabilidades, sejam contratuais, extracontratuais ou de outra natureza, decorrentes de ou
+                relacionadas ao Software ou ao seu uso, sendo ainda vedado o uso do nome do autor, do projeto ou do
+                aplicativo para endossar ou promover produtos derivados. TabDoc foi feito usando <span
+                    style="color: #00be30;">NodeJS</span> e outras
+                tecnologias web :D
+            </p>
+            <hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
+
+            <div class="action-buttons">
+                <a href="TabDoc Setup 1.0.0.exe" download>
+                    <button class="btn-black">
+                        <img src="images/windows_white.png" alt="Windows Icon">
+                        Download for Windows
+                    </button>
+                </a>
+                <a href="como-instalar">
+                    <button class="btn-outline">Como Instalar?</button>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="content-card" style="margin-top: 2rem;">
+            <div class="split-content">
+                <div class="split-text">
+                    <h2>Como funciona</h2>
+                    <p style="margin-top: 1rem; line-height: 1.6; color: #555;">
+                        Após a instalação você pode abrir o programa e definir algumas escolhas pra você, Ao clicar no
+                        icone de configurações
+                        você pode alterar entre temas para o app, como Escuro (o tema padrão), Claro, Azul oceano,
+                        Dracula, Também e possível colocar backgrounds, walpapers no fundo do app,
+                        Como esse que aparece no exemplo ao lado, Você pode ver essa opção também no menu de
+                        configurações, A função principal do programa que e criar lista de tarefas, Você pode criar
+                        listas com titulos clicando no
+                        botão "+" que aparece no canto inferior direito, ou clicando com o botão direito do mouse na aba
+                        vazia de listas e clicando em "Nova Lista", Sinta-se a vontade pra sugerir temas e
+                        funcionalidades.
+
+                    </p>
+                </div>
+                <div class="split-image">
+                    <img src="images/interface.png" alt="Como funciona" style="width: 100%; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://github.com/recaihd" target="_blank" class="social-github"><img src="social/github.png"
+                        alt="GitHub"></a>
+                <a href="https://www.youtube.com/@recai2" target="_blank" class="social-youtube"><img
+                        src="social/yotube.png" alt="YouTube"></a>
+                <a href="mailto:ricardosousapixtudo@gmail.com" target="_blank" class="social-email"><img
+                        src="social/email.png" alt="Email"></a>
+            </div>
+            <p>&copy; <span id="ano"></span> Tabdoc - Todos os direitos reservados.</p>
+        </div>
+        <script>
+            const anoAtual = new Date().getFullYear();
+            document.getElementById("ano").innerText = anoAtual;
+        </script>
+    </footer>
+
+
+
+</body>
+
+</html>
