@@ -1,0 +1,20 @@
+{
+  "name": "tabdoc_site_cloudflare",
+  "version": "1.0.0",
+  "main": "componentes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recaihd/TabDoc_Site-CloudFlare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recaihd/TabDoc_Site-CloudFlare/issues"
+  },
+  "homepage": "https://github.com/recaihd/TabDoc_Site-CloudFlare#readme",
+  "description": ""
+}
